@@ -50,6 +50,7 @@ curcheck(kursbox, 'OOP')
 kursbox.place(x=width/10, y=height/3.3)
 
 kursbox2 = Label(root, width=24, height=13, bg="grey")
+#Namen hier tauschen
 curcheck(kursbox2, 'Mathematik')
 kursbox2.place(x=width/3.1, y=height/3.3)
 
