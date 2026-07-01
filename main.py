@@ -15,6 +15,7 @@ root.state('zoomed')
 def close():
     root.destroy()
 
+#Prüft, ob der Name in boxvar gleich mit kursvar
 def curcheck(boxvar, kursvar):
     try:
         if db_gebucht[kursvar].gebucht:
