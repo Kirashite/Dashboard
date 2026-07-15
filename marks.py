@@ -14,7 +14,6 @@ root.state('zoomed')
 def close():
     root.destroy()
 
-#Funktion, um Durchschnitt zu kalkulieren
 def calsum(l):
     try:
     # returning sum of list using List comprehension
@@ -27,14 +26,13 @@ def calsum(l):
     except KeyError:
         pass
 
-#Prüft, ob der Name in boxvar gleich mit kursvar
 def curcheck(boxvar, kurvar):
     try:
         if db_gebucht[kurvar].gebucht == 1:
             boxvar["text"] = kurs_db[kurvar].name
     except KeyError:
         pass
-#Macht das gleiche, was curcheck macht
+
 def gradecheck(boxvar, kurvar):
     try:
         if db_gebucht[kurvar].gebucht == 1:

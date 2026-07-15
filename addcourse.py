@@ -1,7 +1,7 @@
 import shelve
 from classes import *
 
-#value: float
+value: float
 
 def addedit():
     db = shelve.open('db/kurse.db', writeback=True)
